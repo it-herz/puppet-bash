@@ -1,0 +1,5 @@
+#MANAGED BY PUPPET
+
+<% @aliases.each do |key,command| %>
+alias <%= key %>='<%= command %>'
+<% end %>
